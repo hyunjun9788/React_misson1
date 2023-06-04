@@ -20,13 +20,38 @@
 }
 .profile{
   width:70px;
+  position:absolute;
+  margin-top: 20px;
 }
 .login-box{
+  position:relative;
   background-color: whitesmoke;
   display:flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   width:300px;
   height:300px;
   box-shadow: 3px 3px 3px 3px lightgray;
+}
+.idPw{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  position:absolute;
+  margin-top: 120px;
+}
+#email{
+  height:40px;
+  width:250px;
+
+}
+#pw{
+  height:40px;
+  width:250px;
+  margin-top: 3px;
+}
+input::placeholder{
+  color:lightgray;
 }
