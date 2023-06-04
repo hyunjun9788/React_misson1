@@ -1,15 +1,32 @@
-img{
+.logo{
   width:200px;
 }
-
 .container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+}
+.header{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height:100vh;
-}
 
+}
 .Content{
   color:gray;
+}
+.profile{
+  width:70px;
+}
+.login-box{
+  background-color: whitesmoke;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height:300px;
+  box-shadow: 3px 3px 3px 3px lightgray;
 }
