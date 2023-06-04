@@ -1,0 +1,15 @@
+img{
+  width:200px;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.Content{
+  color:gray;
+}
