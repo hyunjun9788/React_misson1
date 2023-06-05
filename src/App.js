@@ -15,6 +15,10 @@ function App() {
         <input id='email' type='text' placeholder='이메일'/>
         <input id='pw' type='password' placeholder='비밀번호'/>
       </div>
+      <div className = 'loginBt'>
+        <button type='button'>로그인</button>
+      </div>
+      <a href='#' className='help'>도움이 필요하세요?</a>
     </div>
       </div>
 

@@ -31,7 +31,7 @@
   justify-content: flex-start;
   align-items: center;
   width:300px;
-  height:300px;
+  height:320px;
   box-shadow: 3px 3px 3px 3px lightgray;
 }
 .idPw{
@@ -54,4 +54,26 @@
 }
 input::placeholder{
   color:lightgray;
+}
+
+.loginBt{
+  position:absolute;
+  margin-top: 230px;
+}
+button{
+  width:260px;
+  height:40px;
+  background-color:cornflowerblue;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
+.help {
+  font-size: 13px;
+  font-weight: bold;
+  color: cornflowerblue;
+  margin-top: 280px;
+  margin-right: 150px;
+  text-decoration: none;
 }
