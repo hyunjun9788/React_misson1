@@ -20,7 +20,7 @@
 }
 .profile{
   width:70px;
-  position:absolute;
+
   margin-top: 20px;
 }
 .login-box{
@@ -34,7 +34,7 @@
   height:320px;
   box-shadow: 3px 3px 3px 3px lightgray;
 }
-.idPw{
+.id-pw{
   display:flex;
   align-items: center;
   justify-content:center;
@@ -70,6 +70,7 @@ button{
 }
 
 .help {
+  position: absolute;
   font-size: 13px;
   font-weight: bold;
   color: cornflowerblue;
