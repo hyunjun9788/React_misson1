@@ -14,7 +14,9 @@ function App() {
             <Profile/>
             <Idpw/>
             <LoginBtn/>
+              <div class='help-position'>
             <Help/>
+              </div>
       </div>
       </div>
 

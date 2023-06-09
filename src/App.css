@@ -24,7 +24,7 @@
   margin-top: 20px;
 }
 .login-box{
-  position:relative;
+  /*position:relative;*/
   background-color: whitesmoke;
   display:flex;
   flex-direction: column;
@@ -39,8 +39,8 @@
   align-items: center;
   justify-content:center;
   flex-direction: column;
-  position:absolute;
-  margin-top: 120px;
+  /*position:absolute;*/
+  margin-top: 20px;
 }
 #email{
   height:40px;
@@ -57,8 +57,8 @@ input::placeholder{
 }
 
 .loginBt{
-  position:absolute;
-  margin-top: 230px;
+  /*position:absolute;*/
+  margin-top: 20px;
 }
 button{
   width:260px;
@@ -69,12 +69,15 @@ button{
   cursor:pointer;
 }
 
+.help-position{
+  display: flex;
+  justify-content: flex-start;
+  width:85%;
+}
 .help {
-  position: absolute;
   font-size: 13px;
   font-weight: bold;
   color: cornflowerblue;
-  margin-top: 280px;
-  margin-right: 150px;
+  margin-top: 10px;
   text-decoration: none;
 }
