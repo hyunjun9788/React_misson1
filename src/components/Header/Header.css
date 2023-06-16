@@ -1,0 +1,14 @@
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Content{
+    color:gray;
+}
+
+.logo{
+    width:200px;
+}

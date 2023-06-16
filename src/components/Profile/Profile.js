@@ -1,4 +1,5 @@
-import profile from './profile.png'
+import './Profile.css'
+import profile from '../../profile.png'
 
 function Profile(){
     return(

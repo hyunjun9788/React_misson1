@@ -1,0 +1,22 @@
+.id-pw{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    /*position:absolute;*/
+    margin-top: 20px;
+}
+#email{
+    height:40px;
+    width:250px;
+
+}
+#pw{
+    height:40px;
+    width:250px;
+    margin-top: 3px;
+}
+
+input::placeholder{
+    color:lightgray;
+}

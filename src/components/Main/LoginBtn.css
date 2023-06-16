@@ -1,0 +1,12 @@
+.loginBt{
+    /*position:absolute;*/
+    margin-top: 20px;
+}
+button{
+    width:260px;
+    height:40px;
+    background-color:cornflowerblue;
+    border:none;
+    color:white;
+    cursor:pointer;
+}

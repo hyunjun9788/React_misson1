@@ -1,3 +1,5 @@
+import './Idpw.css'
+
 function Idpw(){
     return(
     <div className='id-pw'>

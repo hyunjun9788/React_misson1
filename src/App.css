@@ -1,6 +1,4 @@
-.logo{
-  width:200px;
-}
+
 .container{
   display:flex;
   justify-content: center;
@@ -8,21 +6,7 @@
   flex-direction: column;
   height:100vh;
 }
-.header{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
-}
-.Content{
-  color:gray;
-}
-.profile{
-  width:70px;
-
-  margin-top: 20px;
-}
 .login-box{
   /*position:relative;*/
   background-color: whitesmoke;
@@ -34,50 +18,11 @@
   height:320px;
   box-shadow: 3px 3px 3px 3px lightgray;
 }
-.id-pw{
-  display:flex;
-  align-items: center;
-  justify-content:center;
-  flex-direction: column;
-  /*position:absolute;*/
-  margin-top: 20px;
-}
-#email{
-  height:40px;
-  width:250px;
 
-}
-#pw{
-  height:40px;
-  width:250px;
-  margin-top: 3px;
-}
-input::placeholder{
-  color:lightgray;
-}
-
-.loginBt{
-  /*position:absolute;*/
-  margin-top: 20px;
-}
-button{
-  width:260px;
-  height:40px;
-  background-color:cornflowerblue;
-  border:none;
-  color:white;
-  cursor:pointer;
-}
 
 .help-position{
   display: flex;
   justify-content: flex-start;
   width:85%;
 }
-.help {
-  font-size: 13px;
-  font-weight: bold;
-  color: cornflowerblue;
-  margin-top: 10px;
-  text-decoration: none;
-}
+

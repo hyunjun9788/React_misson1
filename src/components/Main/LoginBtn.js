@@ -1,3 +1,5 @@
+import './LoginBtn.css'
+
 function LoginBtn(){
     return(
         <div className = 'loginBt'>
